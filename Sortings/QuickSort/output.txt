@@ -1,0 +1,4 @@
+
+Original List: 24 21 11 21 45 26 63 
+Sorted by QuickSort: 11 21 21 24 26 45 63 
+
