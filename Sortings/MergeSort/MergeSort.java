@@ -14,12 +14,20 @@ public class MergeSort {
         // Test array
         int[] theList = {52,21,24,54,63,21,51,2,3,45,1,25,6,2,4,5,12,21,85};
 
-        theList = MergeSort(theList);
+        System.out.print("Original List: ");
+        for(int i = 0; i < theList.length; i++) {
+            System.out.print(theList[i] + " ");
+        }
+        System.out.print("\n");
 
+        theList = MergeSort(theList); // Sort the list using MergeSort
+
+        System.out.print("Sorted by MergeSort: ");
         // Print to check if the list gets sorted or not
         for(int i = 0; i < theList.length; i++) {
-            System.out.println(theList[i] + " ");
+            System.out.print(theList[i] + " ");
         }
+        System.out.print("\n");
     }
 
     /*
